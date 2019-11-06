@@ -34,11 +34,11 @@ class Bot:
         try:
             time.sleep(2)
             user = WebDriverWait(self.browser, 20).until(ec.presence_of_element_located((By.XPATH, '//*[@id="react-root"]/section/main/div/article/div/div[1]/div/form/div[2]/div/label/input')))
-            user.send_keys('rohitdalal4041@gmail.com')
+            user.send_keys('  ')
 
 
             password = WebDriverWait(self.browser, 20).until(ec.presence_of_element_located((By.XPATH, '//*[@id="react-root"]/section/main/div/article/div/div[1]/div/form/div[3]/div/label/input')))
-            password.send_keys('me4041$')
+            password.send_keys('  ')
 
             # log in click
             time.sleep(1)
